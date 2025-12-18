@@ -1,7 +1,7 @@
 {
   "id": "re.sonny.Playhouse",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "re.sonny.Playhouse",
   "finish-args": [
@@ -13,31 +13,14 @@
   ],
   "modules": [
     {
-      "name": "blueprint",
-      "buildsystem": "meson",
-      "builddir": true,
-      "cleanup": [
-        "*"
-      ],
-      "sources": [
-        {
-          "type": "git",
-          "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
-          "tag": "v0.6.0",
-          "commit": "9adcab2d225fd6435edc85c72a0b67e33880e00b"
-        }
-      ]
-    },
-    {
       "name": "Playhouse",
       "buildsystem": "meson",
-      "builddir": true,
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/sonnyp/Playhouse.git",
-          "tag": "v1.1",
-          "commit": "e3813fc5861c863009540ba282dbc040ceaf9a2f"
+          "tag": "v1.2",
+          "commit": "2d590be1c7f638c3e5800c65108e5412c3031117"
         }
       ]
     }
